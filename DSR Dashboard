@@ -8,6 +8,7 @@
 <br>
 <br>
 <br>
+<br>
 <p id="h2"></p>
 <input type="checkbox" id="checkbox_choice" > <b>Compare Period</b><I>   (to compare pods, use comma separator between pod names above) </I>
 <p id="h2"></p>
@@ -36,47 +37,47 @@
   <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="Redo_Size_ps" /> Redo Size per Second</div>
   <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="db_file_sequential_read_lat" /> DB File Sequential Read Latency</div>
 <input type="checkbox" id='sfcon_all'/><b>SFCon</b>
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:TPhyR" /> Total Physical Reads</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:APhyR" /> Application Physical Reads</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:RIops" /> Total Read IOPS</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:TWrite" /> Total Writes</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:AWrits" /> Application Writes</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:WIops" /> Write IOPS</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:IntrC" /> Interconnect Load</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Execs" /> Execution Count</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:HPrse" /> Hard Parse</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:SPrse" /> Soft Parse</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Log" /> Logins/sec</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Dfsr" /> DB Sequential File Read</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Lfs" /> Log File Sync</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:ActSessCnt_1" /> Active Session Count (ACT)</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:REDO" /> Redo MB/sec</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:UNDO" /> Undo MB/sec</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Cmmt" /> Commits/sec</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Rlbk" /> Rollbacks/sec</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:EnQ" /> Enqueue Count/sec</div>      
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:TPhyR" /> Total Physical Reads</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:APhyR" /> Application Physical Reads</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:RIops" /> Total Read IOPS</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:TWrite" /> Total Writes</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:AWrits" /> Application Writes</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:WIops" /> Write IOPS</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:IntrC" /> Interconnect Load</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Execs" /> Execution Count</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:HPrse" /> Hard Parse</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:SPrse" /> Soft Parse</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Log" /> Logins/sec</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Dfsr" /> DB Sequential File Read</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Lfs" /> Log File Sync</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:ActSessCnt_1" /> Active Session Count (ACT)</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:REDO" /> Redo MB/sec</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:UNDO" /> Undo MB/sec</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Cmmt" /> Commits/sec</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:Rlbk" /> Rollbacks/sec</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="SFCon:EnQ" /> Enqueue Count/sec</div>
 <input type="checkbox" id='tos_all'/><b>TOS</b>
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_ALLOCATED_SIZE" /> TOS_DB_ALLOCATED_SIZE</div>     
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_USED_SIZE" /> TOS_DB_USED_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_FREE_SIZE" /> TOS_DB_FREE_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_ALLOCATED_SIZE" /> TOS_SIN_ALLOCATED_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_ALLOCATED_SIZE" /> TOS_KS_ALLOCATED_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_DATA_SIZE" /> TOS_SIN_DATA_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_INDEX_SIZE" /> TOS_SIN_INDEX_SIZE</div>     
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_DATA_SIZE" /> TOS_KS_DATA_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_INDEX_SIZE" /> TOS_KS_INDEX_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_USED_SIZE_PERC" /> TOS_DB_USED_SIZE_PERC</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_USED_SIZE_PERC" /> TOS_SIN_USED_SIZE_PERC</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_USED_SIZE_PERC" /> TOS_KS_USED_SIZE_PERC</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_NONTOS_USED_SIZE_PERC" /> TOS_NONTOS_USED_SIZE_PERC</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_CNT_BELOW_MIN_SIZE" /> TOS_SIN_CNT_BELOW_MIN_SIZE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_PD_RECLAIMABLE_SPACE" /> TOS_PD_RECLAIMABLE_SPACE</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DBFILES_CNT" /> TOS_DBFILES_CNT</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_BACKUP_FAIL_CNT" /> TOS_BACKUP_FAIL_CNT</div>   
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_USER_COL_USAGE_STATS" /> TOS_USER_COL_USAGE_STATS</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_VERSION" /> TOS_REL_VERSION</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_POST_TIME" /> TOS_REL_POST_TIME</div>      
-  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_PRE_TIME" /> TOS_REL_PRE_TIME</div>      
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_ALLOCATED_SIZE" /> TOS_DB_ALLOCATED_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_USED_SIZE" /> TOS_DB_USED_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_FREE_SIZE" /> TOS_DB_FREE_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_ALLOCATED_SIZE" /> TOS_SIN_ALLOCATED_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_ALLOCATED_SIZE" /> TOS_KS_ALLOCATED_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_DATA_SIZE" /> TOS_SIN_DATA_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_INDEX_SIZE" /> TOS_SIN_INDEX_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_DATA_SIZE" /> TOS_KS_DATA_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_INDEX_SIZE" /> TOS_KS_INDEX_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DB_USED_SIZE_PERC" /> TOS_DB_USED_SIZE_PERC</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_USED_SIZE_PERC" /> TOS_SIN_USED_SIZE_PERC</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_KS_USED_SIZE_PERC" /> TOS_KS_USED_SIZE_PERC</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_NONTOS_USED_SIZE_PERC" /> TOS_NONTOS_USED_SIZE_PERC</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_SIN_CNT_BELOW_MIN_SIZE" /> TOS_SIN_CNT_BELOW_MIN_SIZE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_PD_RECLAIMABLE_SPACE" /> TOS_PD_RECLAIMABLE_SPACE</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_DBFILES_CNT" /> TOS_DBFILES_CNT</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_BACKUP_FAIL_CNT" /> TOS_BACKUP_FAIL_CNT</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_USER_COL_USAGE_STATS" /> TOS_USER_COL_USAGE_STATS</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_VERSION" /> TOS_REL_VERSION</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_POST_TIME" /> TOS_REL_POST_TIME</div>
+  <div id="multiple_select_checkbox_choice">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" name="slt_username" value="TOS_REL_PRE_TIME" /> TOS_REL_PRE_TIME</div>
 </div>
   <p id="h3"></p>
 <br/>
@@ -131,7 +132,7 @@ function validate()
     {
       names=document.getElementsByName("slt_username")[i].value;
       ysize=ysize+500;
-      if(names.indexOf("TOS") > -1) {         
+      if(names.indexOf("TOS") > -1) {
          myTable+="<iframe src='https://argus-ui.data.sfdc.net/argus/#/dashboards/1496242?start="+start+"&dc="+dc+"&sp="+sp+"&pod="+pod+"&metric="+names+"' scrolling='no' frameborder='0' style='position:absolute; clip:rect(230px,1000px,1000px,50px);height:1000px;width:2000px; border: 0px none; margin-top: "+ysize+"px; margin-left: "+xsize+"px;' ></iframe>";
          xsize=xsize+1050;
          if (x == true)
@@ -142,8 +143,8 @@ function validate()
          }
          xsize=xsize-1050;
         }
-      else if(names.indexOf("SFCon:") > -1) {   
-         names=names.replace(/SFCon:/g,'');      
+      else if(names.indexOf("SFCon:") > -1) {
+         names=names.replace(/SFCon:/g,'');
          myTable+="<iframe src='https://argus-ui.data.sfdc.net/argus/#/dashboards/1496528?start="+start+"&dc="+dc+"&sp="+sp+"&pod="+pod+"&node="+node+"&metric="+names+"' scrolling='no' frameborder='0' style='position:absolute; clip:rect(230px,1000px,1000px,50px);height:1000px;width:2000px; border: 0px none; margin-top: "+ysize+"px; margin-left: "+xsize+"px;' ></iframe>";
          xsize=xsize+1050;
          if (x == true)
@@ -155,7 +156,7 @@ function validate()
          xsize=xsize-1050;
         }
       else {
-         myTable+="<iframe src='https://argus-ui.data.sfdc.net/argus/#/dashboards/716128?start="+start+"&end="+end+"&dc="+dc+"&sp="+sp+"&pod="+pod+"&node="+node+"&metric="+names+"' scrolling='no' frameborder='0' style='position:absolute; clip:rect(230px,1000px,1000px,50px);height:1000px;width:2000px; border: 0px none; margin-top: "+ysize+"px; margin-left: "+xsize+"px;' ></iframe>";               
+         myTable+="<iframe src='https://argus-ui.data.sfdc.net/argus/#/dashboards/716128?start="+start+"&end="+end+"&dc="+dc+"&sp="+sp+"&pod="+pod+"&node="+node+"&metric="+names+"' scrolling='no' frameborder='0' style='position:absolute; clip:rect(230px,1000px,1000px,50px);height:1000px;width:2000px; border: 0px none; margin-top: "+ysize+"px; margin-left: "+xsize+"px;' ></iframe>";
          xsize=xsize+1050;
          if (x == true)
          {
@@ -296,7 +297,7 @@ var sfcon_all = document.getElementById("sfcon_all"); //select all checkbox
 var checkboxes = document.getElementsByName("slt_username"); //checkbox items
 //select all checkboxes
 select_all.addEventListener("change", function(e){
-    for (i = 0; i < checkboxes.length; i++) { 
+    for (i = 0; i < checkboxes.length; i++) {
         checkboxes[i].checked = select_all.checked;
         tos_all.checked = select_all.checked;
         oracle_all.checked = select_all.checked;
@@ -305,7 +306,7 @@ select_all.addEventListener("change", function(e){
 });
 //toggle checkboxes
 for (var i = 0; i < checkboxes.length; i++) {
-    checkboxes[i].addEventListener('change', function(e){ //".checkbox" change 
+    checkboxes[i].addEventListener('change', function(e){ //".checkbox" change
         //uncheck "select all", if one of the listed checkbox item is unchecked
         if(this.checked == false){
             select_all.checked = false;
@@ -328,7 +329,7 @@ for (var i = 0; i < checkboxes.length; i++) {
 
 //select all tos metrics checkboxes
 tos_all.addEventListener("change", function(e){
-    for (i = 0; i < checkboxes.length; i++) { 
+    for (i = 0; i < checkboxes.length; i++) {
         names=document.getElementsByName("slt_username")[i].value;
         if(names.indexOf("TOS") > -1) {
           checkboxes[i].checked = tos_all.checked;
@@ -338,7 +339,7 @@ tos_all.addEventListener("change", function(e){
 
 //select all oracle metrics checkboxes
 oracle_all.addEventListener("change", function(e){
-    for (i = 0; i < checkboxes.length; i++) { 
+    for (i = 0; i < checkboxes.length; i++) {
         names=document.getElementsByName("slt_username")[i].value;
         if(names.indexOf("TOS") > -1) {
           ;
@@ -354,7 +355,7 @@ oracle_all.addEventListener("change", function(e){
 
 //select all sfcon metrics checkboxes
 sfcon_all.addEventListener("change", function(e){
-    for (i = 0; i < checkboxes.length; i++) { 
+    for (i = 0; i < checkboxes.length; i++) {
         names=document.getElementsByName("slt_username")[i].value;
         if(names.indexOf("SFCon:") > -1) {
           checkboxes[i].checked = sfcon_all.checked;
